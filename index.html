@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <!-- displays site properly based on user's device -->
     <meta charset="UTF-8" />
@@ -24,61 +24,59 @@
     <title>Frontend Mentor | Sunnyside agency landing page</title>
   </head>
 
-  <!------- Header Content ------->
-  <div class="grid-section-one">
-    <header class="primary-header flex">
-      <img
-        src="images/logoheader.svg"
-        alt="Sunnyside Logo Image"
-        class="logo-img"
-      />
-      <button class="mobile-nav-toggle" aria-controls="primary-navigation">
-        <span class="sr-only" aria-expanded="false" role="navigation">Menu</span>
-      </button>
-      <nav>
-        <ul
-          id="primary-navigation"
-          data-visible="false"
-          class="primary-navigation"
-        >
-          <li>
-            <a
-              aria-label="Navigation link for about page"
-              class="--ff-secondary --fs-400"
-              href="#"
-              >About</a
-            >
-          </li>
-          <li>
-            <a
-              aria-label="Navigation link for services page"
-              class="--ff-secondary --fs-400"
-              href="#"
-              >Services</a
-            >
-          </li>
-          <li>
-            <a
-              aria-label="Navigation link for projects page"
-              class="--ff-secondary --fs-400"
-              href="#"
-              >Projects</a
-            >
-          </li>
-          <li>
-            <a
-              aria-label="Navigation link for contact page"
-              class="contact-button --clr-secondary-600 --ff-primary --fs-400 text-black"
-              href="#"
-              >CONTACT</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-
   <!-- Main content -->
   <body>
+    <div class="grid-section-one">
+      <div class="primary-header flex">
+        <img
+          src="images/logoheader.svg"
+          alt="Sunnyside Logo Image"
+          class="logo-img"
+        />
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+          <span class="sr-only" aria-expanded="false" role="navigation">Menu</span>
+        </button>
+        <nav role="navigation">
+          <ul
+            id="primary-navigation"
+            data-visible="false"
+            class="primary-navigation"
+          >
+            <li>
+              <a
+                aria-label="Navigation link for about page"
+                class="--ff-secondary --fs-400"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                aria-label="Navigation link for services page"
+                class="--ff-secondary --fs-400"
+                href="#"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                aria-label="Navigation link for projects page"
+                class="--ff-secondary --fs-400"
+                href="#"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a
+                aria-label="Navigation link for contact page"
+                class="contact-button --clr-secondary-600 --ff-primary --fs-400 text-black"
+                href="#"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
       <h1 class="section-one-text">WE ARE CREATIVES</h1>
       <div class="down-arrow">
         <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">
@@ -295,6 +293,7 @@
           />
         </div>
       </div>
+    </main>
     </body>
     <footer>
       <div class="footer-container">
