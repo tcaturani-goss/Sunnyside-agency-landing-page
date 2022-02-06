@@ -290,12 +290,12 @@ footer {
   color: var(--ff-clr-primary-100);
   text-decoration: none;
   margin-top: 2em;
-  border-radius: 14px;
 }
 .learn-more-one span {
-  background: linear-gradient(hsl(49, 66%, 83%), hsl(49, 66%, 83%)) 0 90% / 100%
-    8px no-repeat;
-  border-radius: 1rem;
+  background: linear-gradient(hsl(49, 66%, 83%), hsl(49, 66%, 83%)) 0 110% /
+    100% 8px no-repeat;
+  border-radius: 30px;
+  padding: 0rem 0.5rem;
 }
 .learn-more-two {
   font-family: var(--ff-primary);
@@ -307,9 +307,10 @@ footer {
   margin-top: 2em;
 }
 .learn-more-two span {
-  background: linear-gradient(hsl(7, 100%, 86%), hsl(7, 100%, 86%)) 0 90% / 100%
-    8px no-repeat;
+  background: linear-gradient(hsl(7, 100%, 86%), hsl(7, 100%, 86%)) 0 110% /
+    100% 8px no-repeat;
   border-radius: 1rem;
+  padding: 0rem 0.5rem;
 }
 .section-four-text-container {
   text-align: center;
