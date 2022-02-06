@@ -717,7 +717,7 @@ svg {
     flex-direction: row;
     align-items: center;
     text-align: center;
-    margin: 3em 1.5em 7em 1.5em;
+    margin: 3em 0em 7em 0em;
   }
   .section-six-name {
     margin: 8em 0em 4em 1.5em;
@@ -743,10 +743,12 @@ svg {
   .learn-more-two {
     margin: 2.875em 0em 0em 0em;
   }
-  .learn-more-one:hover {
+  .learn-more-one span:hover {
+    background: linear-gradient(hsl(51, 100%, 49%), hsl(51, 100%, 49%)) 0 110% /
+      100% 8px no-repeat;
     text-decoration-color: hsl(51, 100%, 49%);
   }
-  .learn-more-two:hover {
+  .learn-more-two span:hover {
     text-decoration-color: hsl(7, 99%, 70%);
   }
   .learn-more-two:after {
