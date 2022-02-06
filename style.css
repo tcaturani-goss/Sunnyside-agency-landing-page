@@ -47,6 +47,7 @@ html:focus-within {
 }
 
 /* Core body defaults */
+
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
@@ -107,7 +108,7 @@ picture {
 }
 
 /* Mobile grid setup begins*/
-body {
+.main-container {
   display: grid;
   grid-template-areas:
     "sec-one"
@@ -121,6 +122,7 @@ body {
     "sec-seven"
     "footer";
   place-content: center;
+  width: 100%;
   min-height: 100vh;
 }
 
@@ -458,7 +460,7 @@ svg {
 }
 /* Footer ends */
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 90em) {
   /* Desktop navigation begins */
   .mobile-nav-toggle {
     display: none;
@@ -599,7 +601,7 @@ svg {
   /* Hidden mobile images/Displayed desktop images ends*/
 
   /* Desktop grid setup begins*/
-  body {
+  .main-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
